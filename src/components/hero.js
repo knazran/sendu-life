@@ -22,7 +22,7 @@ export default function Hero({ props, ...heroProps}) {
               </p>
             </div>
             <div className="px-6 py-4">
-                <iframe className='w-full h-64' src="https://open.spotify.com/embed/track/3LZZMFF8xgTgakWmmRPLJn" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe className='w-full h-64' src="https://open.spotify.com/embed/playlist/5EAQqMHYS53OqwBwJTUFzb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
         </div>
     </div>
