@@ -18,10 +18,10 @@ export default function Hero({ props, ...heroProps}) {
                     Dengar Lagu Dulu
                 </div>
                 <p className="text-gray-700 text-base">
-                    Pilihan Sendu Terbaik
+                    Takde lagu yang layan? Click the Spotify icon and add your songs for yourself and others to layan.
               </p>
             </div>
-            <div className="px-6 py-4">
+            <div className="px-6 py-4 pt-0">
                 <iframe className='w-full h-64' src="https://open.spotify.com/embed/playlist/5EAQqMHYS53OqwBwJTUFzb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
         </div>
