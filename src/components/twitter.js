@@ -3,7 +3,7 @@ import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 const TwitterContainer = () => {
   return (
-    <div className="container mx-auto px-6 w-3/5">
+    <div className="container mx-auto px-4 w-full md:w-7/12 lg:w-7/12">
         <h2 className="text-2xl text-left font-bold mb-2 text-black">
             Solidariti Bersama
         </h2>
@@ -16,7 +16,7 @@ const TwitterContainer = () => {
             sourceType="profile"
             screenName="sendu_life"
             options={{
-                tweetLimit: "10",
+                tweetLimit: "15",
                 width: "100%",
             }}
             ></TwitterTimelineEmbed>
