@@ -19,6 +19,8 @@ const TwitterContainer = () => {
                 tweetLimit: "15",
                 width: "100%",
             }}
+            noFooter="true"
+            noHeader="true"
             ></TwitterTimelineEmbed>
         </div>
         </section>
