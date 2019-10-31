@@ -1,12 +1,16 @@
 import React from "react";
+import Emoji from "./emoji"
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 
 const TwitterContainer = () => {
   return (
     <div className="container mx-auto px-4 w-full md:w-7/12 lg:w-7/12">
         <h2 className="text-2xl text-left font-bold mb-2 text-black">
-            Solidariti Bersama
+            Solidariti Bersama &nbsp; 
+            <Emoji symbol="😔" label="sad"/>
+            <Emoji symbol="✊" label="fist"/>
         </h2>
+        
         <h3 className="text-xl text-left mb-2 text-gray-700">
         Tweet #SenduLife to stand strong together
         </h3>
