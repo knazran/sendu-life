@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="flex flex-col w-full my-0">
       <Hero title="Sendu ke?" subtitle="Don't sendu alone my brothers and sisters"/>
-      <TwitterContainer/>
+      {/* <TwitterContainer/> */}
     </div>
     
     
